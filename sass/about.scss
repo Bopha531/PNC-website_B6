@@ -2,3 +2,60 @@
 @import "./compenent/footer";
 @import "./compenent/nav";
 @import "./compenent/variable";
+
+nav, main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav {
+    background: $primary;
+    color: $fourth;
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+nav, .info, .info1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+nav h6 {
+    margin: 0;
+}
+// .material-icons {
+//     font-size: 18px;
+//     vertical-align: middle;
+// }
+main {
+    background-color: $secondary;
+    padding: 10px 20px;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: $primary;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+ul li a:hover {
+    background-color: $fourth;
+}
+select{
+    width: 150px;
+    height: 6vh;
+    border-radius: 10px
+}
+    
