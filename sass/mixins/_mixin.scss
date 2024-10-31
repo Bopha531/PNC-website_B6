@@ -17,7 +17,7 @@
 }
 @mixin logo{
     width: 180px;
-    height: 10vh;
+    height: 14vh;
     padding: 20px;
 }
 @mixin imge-contain{
@@ -50,6 +50,11 @@
 @mixin heading{
     margin-left: 40px;
 }
+@mixin card_L-R{
+    width: 480px;
+    height: 660px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 @mixin box1{
     margin-left: 30px;
     width: 290px;
@@ -58,22 +63,62 @@
 }
 @mixin box2{
     width: 340px;
-    height: 540px;
+    height: 600px;
     border-radius: 20px;
 }
 @mixin box3{
-    width: 340px;
-    height: 630px;
+    width: 270px;
+    height: 660px;
     border-radius: 20px;
 }
 @mixin box4{
     margin-left: 30px;
-    width: 290px;
-    height: 370px;
+    width: 240px;
+    height: 400px;
     border-radius: 20px;
 }
+
 @mixin pic{
+    width: 60px;
+    height: 60px;
+    margin-left: 54px;
+    border-radius: 50%;
+}
+@mixin pic-footer{
+    width: 80px;
+    height: 80px;
+    margin-left: 124px;
+    border-radius: 50%;
+}
+@mixin card-Footer{
+    width: 360px;
+    height: 560px;
+}
+@mixin card-partner{
+    width: 360px;
+    height: 460px;
+}
+@mixin pic_partner{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+@mixin pic_partner2{
+    padding: 20px;
+    width: 160px;
+    height: 100px;
+}
+@mixin text-impact{
+    width: 380px;
+    height: 236px;
+}
+@mixin card_impact{
     width: 200px;
     height: 100px;
-    margin-left: 70px;
+    background: $color-navbar;
+    border-radius: 20px;
+}
+@mixin icon-contect{
+    width: 50px;
+    height: 50px;
 }
