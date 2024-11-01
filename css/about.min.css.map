@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sources":["../sass/about.scss","../sass/compenent/_variable.scss"],"names":[],"mappings":"AAKA,SACI,YAAA,CACA,kBAAA,CACA,6BAAA,CACA,YAAA,CAEJ,IACI,eCZM,CDaN,UCVK,CDWL,cAAA,CACA,gBAAA,CACA,iBAAA,CAEJ,iBACI,YAAA,CACA,kBAAA,CACA,OAAA,CAGJ,OACI,QAAA,CAMJ,KACI,wBC/BQ,CDgCR,iBAAA,CAEJ,UACI,WAAA,CACA,WAAA,CAEJ,GACI,oBAAA,CACA,YAAA,CACA,QAAA,CAEJ,QACI,oBAAA,CACA,UC9CM,CD+CN,gBAAA,CACA,iBAAA,CACA,iBAAA,CACA,oBAAA,CAEJ,cACI,qBClDK,CDoDT,OACI,WAAA,CACA,UAAA,CACA,kBAAA","file":"about.min.css"}
-=======
 {"version":3,"sources":[],"names":[],"mappings":"","file":"about.min.css"}
->>>>>>> mesa
