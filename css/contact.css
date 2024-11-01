@@ -340,6 +340,9 @@ ul li:hover {
 .contect .main-contect .main-right input {
   width: 100%;
   margin-top: 14px;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
 }
 .contect .main-contect .main-right button {
   background: #6488C9;
@@ -348,4 +351,19 @@ ul li:hover {
   padding: 10px;
   width: 120px;
   border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    gap: 4px;
+  }
+  .contact-us {
+    width: 100%;
+  }
+  .contact-us .info .info1 .info3 .info4 .info5 {
+    width: 100%;
+  }
+  .contact-us .map {
+    width: 100%;
+  }
 }/*# sourceMappingURL=contact.css.map */
