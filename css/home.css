@@ -701,6 +701,9 @@ footer .card-footer .card_F3 .pic {
 .contect .main-contect .main-right input {
   width: 100%;
   margin-top: 14px;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
 }
 .contect .main-contect .main-right button {
   background: #6488C9;

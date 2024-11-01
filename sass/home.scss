@@ -563,6 +563,9 @@ footer{
             input{
                 width: 100%;
                 margin-top: 14px;
+                height: 6vh;
+                border-radius: 10px;
+                border: none;
             }
             button{
                 background: $color-footer;
