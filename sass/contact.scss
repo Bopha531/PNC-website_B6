@@ -1,5 +1,6 @@
 @import"./compenent/variable";
 @import"./mixins/mixin";
+@import"./mixins/responsive";
 body{
     position: relative;
     top: 64px;
@@ -9,6 +10,7 @@ header .top .line{
     height: 6vh;
     background: $color-nav-top;
     font-size: 8px
+    
 }
 .main-header{
     display: flex;
@@ -103,7 +105,6 @@ ul li:hover{
         display: flex;
         background: wheat;
         border-radius: 20px;
-        
         .info{
             width: 180px;
             padding: 40px;
@@ -331,4 +332,10 @@ ul li:hover{
         }
         
     }
+}
+@media only screen and (max-width: 600px){
+    ul{
+        gap: 4px;
+    }
+    @include phone;
 }
