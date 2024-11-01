@@ -348,4 +348,19 @@ ul li:hover {
   padding: 10px;
   width: 120px;
   border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    gap: 4px;
+  }
+  .contact-us {
+    width: 100%;
+  }
+  .contact-us .info .info1 .info3 .info4 .info5 {
+    width: 100%;
+  }
+  .contact-us .map {
+    width: 100%;
+  }
 }/*# sourceMappingURL=contact.css.map */
