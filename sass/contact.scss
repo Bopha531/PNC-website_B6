@@ -20,6 +20,7 @@ span{
     margin-left: 60px;
     @include text-Top-nav;
 }
+ 
 .line{
     display: flex;
     background: $color-navbar;
@@ -32,13 +33,13 @@ span{
         position: relative;
         top: -20px;
     }
-}
+} 
 .navbar{
     ul{
         margin-left: 200px;
         margin-top: 28px;
         display: flex;
-        gap: 48px;
+        gap: 68px;
         width: 100%;
         @include center;
             li{
@@ -54,7 +55,12 @@ span{
     }
 }
 .logo img{
-    @include logo;
+width:120px;
+align-content: center;
+align-items: center;
+position: relative;
+top: 21%;
+left: 5%;
 }
 ul li:hover{
     background-color: teal;
@@ -336,9 +342,135 @@ ul li:hover{
         
     }
 }
-@media only screen and (max-width: 600px){
-    ul{
-        gap: 4px;
-    }
-    @include phone;
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .line{
+
+        p{
+            font-size: 12px;
+            position:relative;
+            top: 5%;
+        }
+        span{
+            font-size:10px;
+        }
+      }
+     ul{
+     padding: 10px;
+
+  
+     }  
+     .logo{
+      margin-top: 3%;
+     }
+     .contact{
+        text-align: center;
+        margin-left: 19%;
+     }
+     .contact-us{
+        background: none;
+        width: 100%;
+        position: relative;
+        right: 12%;
+     }
+     .for-map{
+        display:flex;
+        padding: 20px;
+        width: 100%;
+        position: relative;
+        right:8%;
+        .country1{
+         width: 50%;
+         display: block;
+         .map{
+            margin-left: 18%;
+            position: relative;
+            bottom: 13%;
+            right: 15%;
+            iframe{
+                width: 100%;
+            }
+         }
+        }
+        .country{
+            width: 50%;
+            display: block;
+            .map{
+                margin-left: 18%;
+                position: relative;
+                bottom: 13%;
+                right: 15%;
+                iframe{
+                    width: 100%;
+                }
+             }
+        }
+        .country2{
+         width: 50%;
+         display: block;
+         .map{
+            margin-left: 18%;
+            position: relative;
+            bottom: 13%;
+            right: 15%;
+            iframe{
+                width: 100%;
+            }
+         }
+        }
+        .country3{
+            width: 50%;
+            display: block;
+            .map{
+                margin-left: 18%;
+                position: relative;
+                bottom: 13%;
+                right: 15%;
+                iframe{
+                    width: 100%;
+                }
+             }
+        }
+        .country4{
+         width: 50%;
+         display: block;
+         .map{
+            margin-left: 18%;
+            position: relative;
+            bottom: 13%;
+            right: 15%;
+            iframe{
+                width: 100%;
+            }
+         }
+        }
+        .country5{
+            width: 50%;
+            display: block;
+            .map{
+                margin-left: 18%;
+                position: relative;
+                bottom: 13%;
+                right: 15%;
+                iframe{
+                    width: 100%;
+                }
+             }
+        }
+     }
+     footer{
+   
+     }
+     .contect{
+        .main-contect{
+        
+         width: 110%;
+         position: relative;
+         right: 32%;
+       
+        }
+        .main-left{
+            width: 130%;
+        }
+     }
 }

@@ -22,9 +22,8 @@ nav {
     font-size: 14px;
     padding-left: 10%;
     padding-right: 30%;
-    font-size: 16px;
-    font-family: sans-serif;
-    color: white;
+ 
+     
 }
 nav, .info, .info1 {
     display: flex;
@@ -40,8 +39,12 @@ main {
     padding: 10px 20px;
 }
 .logo img {
-    width: 100px;
-    height: auto;
+    width:120px;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 21%;
+    left: 5%;
 }
 ul {
     list-style-type: none;
@@ -55,9 +58,12 @@ ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
 }
 ul li a:hover {
-    background-color: $fourth;
+   background: teal;
 }
 select{
     width: 150px;
@@ -412,3 +418,88 @@ footer{
         }
     }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+ .info{
+    padding: 25px;
+   
+ }
+
+ #contry{
+ 
+    padding: 10px;
+    width: 120px;
+    height: 4vh;
+ }
+ .for-card{
+  
+    .info-card{
+        flex-basis: 150%;
+        width: 50%;
+        background: #fff;;
+    }
+ }
+.new{
+  
+ 
+    width: 120%;
+    height: 50vh;
+    font-size: 10px;
+    position: relative;
+    right: 21%;
+}
+    .for-next{
+    p{
+        font-size: 16px;
+    }
+        width: 120%;
+        
+        
+        img{
+            width:14%;
+    
+        }
+    }
+    .the-back{
+        position: relative;
+        top: 25%;
+        display: inline;
+        background: #0000001f;
+        .for-card{
+            width: 50%;
+            
+        }
+        .for-paragraph{
+            background: #00000017;
+            width: 120%;
+            position: relative;
+            right: 30%;
+            top: 5%;
+            font-size: 14px;
+        }
+    }
+    .next-p{
+        margin-top: 25%;
+        font-size: 14px;
+    }
+    .image-gallery{
+        background: #000;
+        display: none;
+    }
+    .last-p{
+       font-size: 14px;
+        width: 120%;
+    }
+    footer{
+   
+    }
+    .contect{
+       .main-contect{
+       
+        width: 100%;
+        position: relative;
+        right: 19%;
+       }
+    }
+}   

@@ -57,7 +57,7 @@ span {
 }
 
 .logo img {
-  width: 180px;
+  width: 160px;
   height: 14vh;
   padding: 20px;
 }
@@ -712,4 +712,211 @@ footer .card-footer .card_F3 .pic {
   padding: 10px;
   width: 12px;
   border-radius: 16px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .line p {
+    font-size: 12px;
+    position: relative;
+    top: 5%;
+  }
+  .line span {
+    font-size: 10px;
+  }
+  .main-header {
+    padding: 10px;
+    width: 100%;
+    height: 10vh;
+  }
+  .main-header .logo {
+    width: 50%;
+    height: 40px;
+  }
+  .navbar {
+    width: 120%;
+  }
+  .navbar ul {
+    width: 50%;
+  }
+  .main-container {
+    display: block;
+  }
+  .main-container .box {
+    margin-left: 15%;
+  }
+  .main-container .contexte {
+    padding: 12px;
+    width: 90%;
+    height: 35vh;
+    position: relative;
+    right: 6%;
+  }
+  .group-partner {
+    display: block;
+  }
+  .group-partner .partner {
+    padding: 5%;
+    height: 12vh;
+  }
+  .group-partner .partner_logo {
+    margin-left: 12%;
+  }
+  .group-partner .partner-logo2 {
+    margin-left: 12%;
+  }
+  .card-footer {
+    width: 100%;
+    position: relative;
+    right: 8%;
+  }
+  .main-contect {
+    position: relative;
+    right: 9%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    display: none;
+  }
+  .main-header .logo {
+    width: 20px;
+    height: 20px;
+    display: none;
+  }
+  .main-header .navbar {
+    position: relative;
+    right: 67%;
+  }
+  .main-header .navbar ul {
+    padding: 5px;
+  }
+  .main-header #contry {
+    display: none;
+  }
+  main {
+    padding: 10%;
+  }
+  main .main-right {
+    display: inline;
+  }
+  main .main-left {
+    padding: 20px;
+    height: 2vh;
+    position: relative;
+    right: 140px;
+    top: 73%;
+  }
+  main .main-left .shap {
+    display: none;
+  }
+  main .main-left .BOX {
+    width: 100%;
+    background: rgba(252, 248, 248, 0.5137254902);
+  }
+  main .main-left .BOX p {
+    display: none;
+  }
+  .main-container {
+    width: 100%;
+    position: relative;
+    right: 10%;
+    display: block;
+  }
+  .main-container .box-column1 {
+    margin-left: 9%;
+  }
+  .main-container .box-column2 {
+    display: none;
+  }
+  .main-text {
+    display: block;
+  }
+  .main-text .contexte {
+    position: relative;
+    right: 29%;
+  }
+  .card_contain {
+    width: 90%;
+    position: relative;
+    right: 29%;
+    display: block;
+  }
+  .group-partner {
+    width: 100%;
+    background: #000;
+    display: inline;
+  }
+  .group-partner .partner {
+    width: 90%;
+    position: relative;
+    right: 20%;
+  }
+  .group-partner .partner_logo {
+    width: 100%;
+  }
+  .group-partner .partner_logo .group1 {
+    width: 100%;
+    position: relative;
+    right: 29%;
+  }
+  .group-partner .partner_logo .group2 {
+    width: 100%;
+    position: relative;
+    right: 29%;
+  }
+  .group-partner .partner-logo2 {
+    width: 100%;
+  }
+  .group-partner .partner-logo2 .group3 {
+    width: 100%;
+    position: relative;
+    right: 29%;
+  }
+  .group-partner .partner-logo2 .group4 {
+    width: 100%;
+    position: relative;
+    right: 29%;
+  }
+  .card-footer .card_F1 {
+    display: none;
+  }
+  .card-footer .card_F2 {
+    display: none;
+    width: 100%;
+    position: relative;
+    right: 39%;
+  }
+  .card-footer .card_F3 {
+    flex-basis: 100%;
+    width: 130%;
+    position: relative;
+    right: 20%;
+    display: none;
+  }
+  .partner_suport {
+    display: block;
+    margin-left: 40px;
+  }
+  .impact {
+    display: block;
+  }
+  .impact .text-impact {
+    margin-left: 5%;
+  }
+  .contect {
+    display: block;
+  }
+  .contect .main-contect {
+    display: block;
+    position: relative;
+    right: 65%;
+  }
+  .contect .main-contect .main-right {
+    width: 120%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .contect .main-contect .main-right button {
+    width: 50%;
+  }
 }/*# sourceMappingURL=home.css.map */
