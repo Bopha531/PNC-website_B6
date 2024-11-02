@@ -2,7 +2,14 @@
 @import "./compenent/footer";
 @import "./compenent/nav";
 @import "./compenent/variable";
+@import "./mixins/mixin";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    background: rgb(231, 231, 230);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
 nav, main {
     display: flex;
     align-items: center;
@@ -25,10 +32,6 @@ nav, .info, .info1 {
 nav h6 {
     margin: 0;
 }
-// .material-icons {
-//     font-size: 18px;
-//     vertical-align: middle;
-// }
 main {
     background-color: $secondary;
     padding: 10px 20px;
@@ -58,4 +61,351 @@ select{
     height: 6vh;
     border-radius: 10px
 }
+.container {
+    padding: 10%;
+    background-image: url(/images/about/image.jpg);
+    height: 92vh;
+    text-align: center;
+}
+h1 {
+    background: rgba(107, 103, 103, 0.356);  
+    width: 50%;
+    padding: 30px;
+    margin-left: 25%;
+    color: $fourth;
+   
+}
+.for-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22%;
+    gap: 20px;
+    .info-card {
+        background: $fourth;
+        width: 150%;
+        border-radius: 15px;
+        p {
+            padding: 20px;
+        }
+    }
+}
+.new {
+    background-color: $thirt;
+    padding: 5%;
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 7%;
+    border-radius: 15px;
+    .dates {
+        text-align: start;
+        margin-top: 10%;
+    }
+    .button {
+        background: $thirt;
+        padding: 20px;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+        border: none;
+        border-radius: 20px;
+        border: 2px solid black;
+        
+    }
+}
+.next {
+    list-style-type: none;
+    display: flex;
+    gap: 10%;
+    margin-left: 20%;
+    margin-top: 3%;
+    li a {
+        color: $primary;
+        font-size: 120%;
+    }
+}
+h2 {
+    text-align: center;
+}
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80%;
+    img {
+        width: 95%;
+        height: 95%;
+        margin-left: 5%;
+        border-radius: 0px 15px 0px 15px;
+        
+    }
+}
+.action {
+    background: rgba(119, 112, 112, 0.37);
+    width: 80%;
+    height: 40vh;
+    margin-left: 10%;
+    .ou-action {
+        text-align: center;
+        height: 100%;
+        margin-top: 5%;
+        p {
+            margin-left: 10%;
+        }
+        li {
+            text-align: start;
+            margin-left: 10%;
+        }
+    }
+}
+
+.second {
+    background: rgba(119, 112, 112, 0.37);
+    width: 80%;
+    margin-left: 10%;
+    height: 50vh;
+    .our-action {
+        text-align: center;
+        margin-top: 5%;
+        p {
+            margin-left: 10%;
+        }
+        li {
+            text-align: start;
+            margin-left: 10%;
+        }
+    }
+}
+.for-next {
+    margin-top: 20%;
+    margin-left: -10%;
+    background: $thirt;
+    width: 200vh;
+    height: 150%;
+    h2 {
+        
+    }
+    p {
+        text-align: center;
+        margin-top: 2%;
+    }
+    img {
+      width: 13%; 
+      margin-left: 10%; 
+      margin-top: 2%;
+      height: 30%;
+
+    }
+}
+.the-back {
+    display: flex;
+    gap: 60px;
+    width: 110%;
+    margin-top: 5%;
     
+    img {
+        width: 200%;
+        height: 250%;
+        margin-top: -100%;
+        margin-left: 0;
+        left: 150%;
+        border-radius: 100px;
+
+    }
+    .for-paragraph {
+        margin-left: 20%;
+        margin-top: -2%;
+        // background: rgba(218, 216, 216, 0.911);
+    }
+}
+.next-p {
+    width: 150%;
+    height: 40%;
+    margin-top: 10%;
+    background: rgb(231, 231, 230);
+    margin-left: -20%;
+
+    h2 {
+    }
+    p {
+        margin-left: 25%;
+        width: 50%; 
+        text-align: center;
+    }
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    height: 100vh;
+    margin-bottom: 40px;
+    .img-one {
+        margin-top: 20px;
+    }
+    .img-two {
+        margin-top: 100px;
+    }
+    .img-three {
+        margin-top: 200px;
+    }
+    .img-fouth {
+        margin-top: 300px;
+    }
+    
+    .image-item {
+        display: flex;
+        flex: 1;
+        border-radius: 15px;
+
+        img {
+            width: 260px;
+            height: 70vh;
+        }
+    }
+}
+.last-p {
+   margin-top: 5%;
+   margin-left: -10%;
+   width: 100vh;
+   background: rgb(231, 231, 230);
+}
+.under {
+    background: $thirt;
+    width: 133%;
+    margin-left: -20%;
+    height: 40%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    h2 {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+        background: $thirt;
+        height: 30%;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 2%;
+        border: none;
+        border-radius: 20px;
+        border: 2px solid rgb(77, 70, 70);
+    }
+}
+footer{
+    
+    width:130%;
+    position: relative;
+    right: 13%;
+    .Line{
+        margin-top: 68px;
+        padding: 40px;
+        background: $thirt;
+        @include center;
+    
+        button{
+            position: relative;
+            top: 20px;
+            background: none;
+            border: solid 1px;
+            padding: 14px;
+            border-radius: 16px;
+        }
+    }
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+
+        background: $secondary;
+        p{
+            color: white;
+        }
+    }
+    .contect{
+        padding: 36px;
+       
+        background: gray;
+        .main-contect{
+            margin-left: 20%;
+            gap: 20px;
+            display: flex;
+            .main-left{
+            @include center;
+            padding: 34px;
+            width: 320px;
+            background: rgba(173, 167, 167, 0.623);
+            .fa-solid{
+                padding: 18px;
+                color: white
+            }
+            .location{
+                @include icon-contect;
+                background: rgba(0, 0, 255, 0.514);
+                position: relative;
+                top: 40px;
+                p{
+                    width: 280px;
+                    text-align: start;
+                    position: relative;
+                    top: -62px;
+                    left: 64px;
+                    font-size: 12px;
+                }
+            }
+            .call{
+                margin-top: 32px;
+                @include icon-contect;
+                background: rgba(255, 0, 0, 0.507);
+                position: relative;
+                top: 40px;
+                p{
+                    width: 280px;
+                    text-align: start;
+                    position: relative;
+                    top: -62px;
+                    left: 64px;
+                    font-size: 12px;
+                }
+            }
+            .email{
+                margin-top: 10px;
+                @include icon-contect;
+                background: rgba(255, 255, 0, 0.514);
+                position: relative;
+                top: 60px;
+                p{
+                    width: 280px;
+                    text-align: start;
+                    position: relative;
+                    top: -55px;
+                    left: 64px;
+                     
+                    font-size: 12px;
+                }
+            }
+            }
+            .main-right{
+                @include center;
+                padding: 100px;
+                width: 300px;
+                background: wheat;
+                h3{
+                    margin-top: -52px;
+                }
+                input{
+                    width: 100%;
+                    margin-top: 14px;
+                    height: 6vh;
+                    border-radius: 10px;
+                    border: none;
+                }
+                button{
+                    background: $thirt;
+                    position: relative;
+                    top: 40px;
+                    padding: 10px;
+                    width: 120px;
+                    border-radius: 16px;
+                }
+            }
+            
+        }
+    }
+}
