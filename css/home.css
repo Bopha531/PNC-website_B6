@@ -33,16 +33,6 @@ span {
   top: -20px;
 }
 
-header {
-  position: sticky;
-  top: 0px;
-}
-
-.main-header {
-  position: sticky;
-  top: 0px;
-}
-
 .navbar ul {
   margin-left: 200px;
   margin-top: 28px;
@@ -76,17 +66,54 @@ ul li:hover {
   background-color: teal;
 }
 
-.action {
+.language-selector {
   position: relative;
-  left: 180px;
+  display: inline-block;
+  position: relative;
+  top: 5%;
 }
-.action select {
-  justify-content: center;
+.language-selector .language-button {
+  position: relative;
+  top: 5%;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.language-selector .language-button i {
+  margin-right: 5px;
+}
+.language-selector .language-button:hover {
+  background-color: #e0e0e0;
+}
+.language-selector .language-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 100px;
+  z-index: 1;
+}
+.language-selector .language-options a {
+  display: flex;
   align-items: center;
-  text-align: center;
-  width: 150px;
-  height: 6vh;
-  border-radius: 10px;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+.language-selector .language-options a i {
+  margin-right: 5px;
+}
+.language-selector .language-options a:hover {
+  background-color: #e0e0e0;
+}
+.language-selector:hover .language-options {
+  display: block;
 }
 
 main {
