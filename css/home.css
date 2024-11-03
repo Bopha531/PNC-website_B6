@@ -33,6 +33,16 @@ span {
   top: -20px;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.main-header {
+  position: sticky;
+  top: 0px;
+}
+
 .navbar ul {
   margin-left: 200px;
   margin-top: 28px;
@@ -785,7 +795,7 @@ footer .card-footer .card_F3 .pic {
   }
   .main-header .navbar {
     position: relative;
-    right: 67%;
+    right: 78%;
   }
   .main-header .navbar ul {
     padding: 5px;

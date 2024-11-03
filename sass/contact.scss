@@ -103,6 +103,10 @@ ul li:hover{
     margin: 100px;
     height: 150vh;
     background: gray;
+    .for-map{
+        width: 100%;
+        display: flex;
+    }
     .country{
         position: relative;
         top: 60px;
@@ -473,4 +477,85 @@ ul li:hover{
             width: 130%;
         }
      }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    header{
+        display: none;
+    }
+    .main-header{
+        .logo{
+            width:20px;
+            height: 20px;
+            display: none;
+        }
+        .navbar{
+            position: relative;
+            right: 76%;
+            ul{
+            padding: 5px;
+        }
+            
+        }
+        #contry{
+            display: none;
+        }
+    }
+    .contact{
+       margin-left: -50px;
+    }
+    .contact-us{
+        width: 100%;
+        height: auto;
+            background: none;
+        position: relative;
+        right: 32%;
+        .for-map{
+            width: 120%;
+            display: block;
+            position: relative;
+             right: 12%;
+             .country1{
+                margin-top: 5%;
+             }
+             .country2{
+                margin-top: 5%;
+             }
+             .country3{
+                margin-top: 5%;
+             }
+             .country4{
+                margin-top: 5%;
+             }
+             .country5{
+                margin-top: 5%;
+             }
+            
+        }
+    }
+    .contect{
+        display: block;
+        .main-contect{
+            display: block;
+            position: relative;
+            right: 65%;
+            .main-left{
+                margin-left: 15%;
+                width: 190%;
+             
+            }
+            .main-right{
+                width: 170%;
+                margin-top: 5%;
+                margin-left: 5%;
+               
+               
+
+                button{
+                     width: 50%;
+                }
+            }
+        }
+    }
 }

@@ -127,6 +127,10 @@ ul li:hover {
   height: 150vh;
   background: gray;
 }
+.contact-us .for-map {
+  width: 100%;
+  display: flex;
+}
 .contact-us .country {
   position: relative;
   top: 60px;
@@ -473,5 +477,76 @@ ul li:hover {
   }
   .contect .main-left {
     width: 130%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    display: none;
+  }
+  .main-header .logo {
+    width: 20px;
+    height: 20px;
+    display: none;
+  }
+  .main-header .navbar {
+    position: relative;
+    right: 76%;
+  }
+  .main-header .navbar ul {
+    padding: 5px;
+  }
+  .main-header #contry {
+    display: none;
+  }
+  .contact {
+    margin-left: -50px;
+  }
+  .contact-us {
+    width: 100%;
+    height: auto;
+    background: none;
+    position: relative;
+    right: 32%;
+  }
+  .contact-us .for-map {
+    width: 120%;
+    display: block;
+    position: relative;
+    right: 12%;
+  }
+  .contact-us .for-map .country1 {
+    margin-top: 5%;
+  }
+  .contact-us .for-map .country2 {
+    margin-top: 5%;
+  }
+  .contact-us .for-map .country3 {
+    margin-top: 5%;
+  }
+  .contact-us .for-map .country4 {
+    margin-top: 5%;
+  }
+  .contact-us .for-map .country5 {
+    margin-top: 5%;
+  }
+  .contect {
+    display: block;
+  }
+  .contect .main-contect {
+    display: block;
+    position: relative;
+    right: 65%;
+  }
+  .contect .main-contect .main-left {
+    margin-left: 15%;
+    width: 190%;
+  }
+  .contect .main-contect .main-right {
+    width: 170%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .contect .main-contect .main-right button {
+    width: 50%;
   }
 }/*# sourceMappingURL=contact.css.map */

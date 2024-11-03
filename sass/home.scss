@@ -25,6 +25,14 @@ span{
         top: -20px;
     }
 }
+header {
+    position: sticky;
+    top: 0px;
+}
+.main-header{
+    position: sticky;
+    top: 0px;
+}
 .navbar{
     ul{
         margin-left: 200px;
@@ -672,7 +680,7 @@ footer{
         }
         .navbar{
             position: relative;
-            right: 67%;
+            right: 78%;
             ul{
             padding: 5px;
         }
